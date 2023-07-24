@@ -1,0 +1,14 @@
+html, body, .container {
+    height: 100%;
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup{
+border: 1px solid #fff;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
