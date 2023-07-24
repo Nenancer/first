@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="meta.css">
+	<title></title>
+</head>
+<body>
+<div class="container"> 
+  <div class="popup"><h1>What is your age?</h1><h4>Please enter your age below:</h4><input style="text-align: center;" type="number" name="age" id="ol">   <input onclick="change()" type="submit" value="Submit"><p id="result"></p></div>
+</div>
+<script type="">
+	function change(){
+	age = document.getElementById("ol").value
+	if (age>14) {
+		alert("you are too old for this page")
+	}
+	else{
+		alert("Welcome")
+	}
+}
+</script>
+</body>
+</html>
